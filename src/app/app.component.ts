@@ -5,12 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-<<<<<<< HEAD
-export class AppComponent {
-  title = 'Junior branch';
-=======
+  
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'Junior branch';
   myList;
 
   ngOnInit(): void {
@@ -20,5 +17,4 @@ export class AppComponent implements OnInit {
       {label: "Angular blog", link: "http://angularjs.blogspot.ca/"},
     ];
   }
->>>>>>> origin/senior
 }
